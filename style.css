@@ -7,7 +7,7 @@
 :root {
   --ink:    #181815;
   --paper:  #f5f1e8;
-  --warm:   #ede7d9;
+  --warm:   #ede7d7;
   --teal:   #1e6b5e;
   --teal2:  #2d9982;
   --rust:   #c0522a;
@@ -456,7 +456,8 @@ section { padding:7rem 5%; }
 .proj-n {
   font-family:var(--serif); font-weight:900;
   font-size:3.5rem; line-height:1;
-  color:var(--warm);
+  /* color:var(--warm); */
+  color: #c4b89a;
   letter-spacing:-0.04em;
   transition:color 0.25s; user-select:none;
   border:1px solid transparent;
