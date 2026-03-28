@@ -528,7 +528,7 @@ section { padding:7rem 5%; }
 .cert-row {
   display:flex; justify-content:space-between; align-items:baseline;
   padding:1.8rem 0; border-bottom:1px solid var(--dust);
-  gap:2rem; transition:background 0.15s;
+  gap:1.1rem; transition:background 0.15s;
 }
 .cert-row:first-child { border-top:1px solid var(--dust); }
 .cert-row:hover { padding-left:0.5rem; }

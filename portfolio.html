@@ -1,173 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biswaranjan Patra</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-  <div class="nav-logo">Biswaranjan <b>Patra</b></div>
-  <ul class="nav-links">
-    <li><a href="#about">about</a></li>
-    <li><a href="#skills">skills</a></li>
-    <li><a href="#projects">work</a></li>
-    <li><a href="#certifications">certs</a></li>
-    <li><a href="#experience">experience</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-  <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-</nav>
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#about" onclick="closeMobile()">about</a>
-  <a href="#skills" onclick="closeMobile()">skills</a>
-  <a href="#projects" onclick="closeMobile()">work</a>
-  <a href="#certifications" onclick="closeMobile()">certifications</a>
-  <a href="#experience" onclick="closeMobile()">experience</a>
-  <a href="#contact" onclick="closeMobile()">contact</a>
-</div>
-
-<!-- ══ HERO ══════════════════════════════════════════ -->
-<section id="hero">
-  <div class="hero-letter">B</div>
-  <div class="hero-rule"></div>
-  <div class="hero-inner">
-    <div class="hero-content">
-      <div class="hero-status">
-        <span class="pulse"></span>
-        Open to internships &nbsp;&middot;&nbsp; MCA 2024&ndash;26
-      </div>
-      <h1 class="hero-name">
-        Biswa<span class="italic-line">ranjan</span>
-      </h1>
-      <p class="hero-sub">Patra<span style="color:var(--teal)">.</span></p>
-      <div class="hero-chips">
-        <span class="chip">Full Stack Dev</span>
-        <span class="chip">Visual Artist</span>
-        <span class="chip">FastAPI</span>
-        <span class="chip">MongoDB</span>
-        <span class="chip">JavaScript</span>
-        <span class="chip">Python(learning)</span>
-        <span class="chip">React(basic)</span>
-
-      </div>
-      <p class="hero-desc">
-        I build web applications and I used to make art &mdash; and I think
-        both are about the same thing. Finding the right form for an idea,
-        and caring enough to get it right.
-      </p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn-fill">See my work</a>
-        <a href="#contact" class="btn-ghost">Get in touch</a>
-        <a href="Biswaranjan_Patra_Resume.pdf" download class="btn-ghost">&#8595; Resume</a>
-      </div>
-    </div>
-
-    <!-- ✏️ PHOTO: .photo-mono div ko hata ke daalo:
-         <img src="images/photo.jpg" alt="Biswaranjan Patra"
-         style="width:100%;height:100%;object-fit:cover;display:block;"> -->
-    <div class="hero-photo-col">
-      <div class="photo-wrap">
-        <div class="photo-inner">
-          <img src="biswa.jpg" alt="Biswaranjan Patra"
-         style="width:100%;height:100%;object-fit:cover;display:block;">
-        </div>
-      </div>
-      <div class="photo-tag">Biswaranjan Patra &mdash; 2026</div>
-    </div>
+  <nav>
+    <div class="nav-logo">Biswaranjan <b>Patra</b></div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">work</a></li>
+      <li><a href="#certifications">certs</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobile()">about</a>
+    <a href="#skills" onclick="closeMobile()">skills</a>
+    <a href="#projects" onclick="closeMobile()">work</a>
+    <a href="#certifications" onclick="closeMobile()">certifications</a>
+    <a href="#experience" onclick="closeMobile()">experience</a>
+    <a href="#contact" onclick="closeMobile()">contact</a>
   </div>
-</section>
 
-<hr class="divider">
-
-<!-- ══ ABOUT ══════════════════════════════════════════ -->
-<section id="about">
-  <div class="inner">
-    <div class="label reveal">01 / About</div>
-    <div class="about-grid">
-      <div class="about-left reveal">
-        <h2 class="big-heading">I code. I design.<br>Sometimes I <em>draw.</em></h2>
-        <p>I'm <strong>Biswaranjan Patra</strong> &mdash; a developer and former visual art student from Odisha, India.I enjoy learning how technology works and how it creates a good experience for users.<em>and</em> how it feels.</p>
-        <p>On the technical side, I am learning backend development, APIs, databases, and basic ML integrations. I like building simple and useful systems. On the creative side, my art background helps me understand design, visual balance, and how a website should feel when someone sees it for the first time.</p>
-        <div class="pull-quote">
-          <p>The best interfaces disappear. You stop seeing the design and just experience what it's doing for you.</p>
+  <!-- ══ HERO ══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-letter">B</div>
+    <div class="hero-rule"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-status">
+          <span class="pulse"></span>
+          Open to internships &nbsp;&middot;&nbsp; MCA 2024&ndash;26
         </div>
-        <p>Currently pursuing MCA at <strong>NIIS Institute of Business Administration</strong> (affiliated BPUT), graduating 2026. Always building something.</p>
-        <div class="about-facts">
-          <div class="fact"><div class="fact-n">1+</div><div class="fact-l">Production projects deployed</div></div>
-          <div class="fact"><div class="fact-n">5+</div><div class="fact-l">Technologies in active use</div></div>
-          <div class="fact"><div class="fact-n">&#8734;</div><div class="fact-l">Things left to learn</div></div>
-          <div class="fact"><div class="fact-n">2026</div><div class="fact-l">Graduating year</div></div>
+        <h1 class="hero-name">
+          Biswa<span class="italic-line">ranjan</span>
+        </h1>
+        <p class="hero-sub">Patra<span style="color:var(--teal)">.</span></p>
+        <div class="hero-chips">
+          <span class="chip">Full Stack Dev</span>
+          <span class="chip">Visual Artist</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Python(learning)</span>
+          <span class="chip">React(basic)</span>
+
+        </div>
+        <p class="hero-desc">
+          I build web applications and I used to make art &mdash; and I think
+          both are about the same thing. Finding the right form for an idea,
+          and caring enough to get it right.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-fill">See my work</a>
+          <a href="#contact" class="btn-ghost">Get in touch</a>
+          <a href="BiswaranjanPatra Resume.pdf" download class="btn-ghost">&#8595; Resume</a>
         </div>
       </div>
-      <div class="about-right reveal">
-        <div class="about-card">
-          <div class="about-card-label">Education</div>
-          <div class="edu-deg">Master of Computer Applications</div>
-          <div class="edu-school">NIIS Institute of Business Administration<br>Affiliated &mdash; BPUT, Odisha</div>
-          <div class="edu-year">2024 &mdash; 2026</div>
+
+      
+      <div class="hero-photo-col">
+        <div class="photo-wrap">
+          <div class="photo-inner">
+            <img src="biswaPotrfolio.jpeg" alt="Biswaranjan Patra"
+              style="width:100%;height:100%;object-fit:cover;display:block;">
+          </div>
         </div>
-        <div class="about-card">
-          <div class="about-card-label">Prior</div>
-          <div class="edu-deg">Bachelor&rsquo;s Of Visual Art</div>
-          <div class="edu-school">Dhauli Collage Of Art & Crafts</div>
-          <div class="edu-year">Completed</div>
+        <div class="photo-tag">Biswaranjan Patra </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ══ ABOUT ══════════════════════════════════════════ -->
+  <section id="about">
+    <div class="inner">
+      <div class="label reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="big-heading">I code. I design.<br>Sometimes I <em>draw.</em></h2>
+          <p>I'm <strong>Biswaranjan Patra</strong> &mdash; a developer and former visual art student from Odisha,
+            India.I enjoy learning how technology works and how it creates a good experience for users.<em>and</em> how
+            it feels.</p>
+          <p>On the technical side, I am learning backend development, APIs, databases, and basic ML integrations. I
+            like building simple and useful systems. On the creative side, my art background helps me understand design,
+            visual balance, and how a website should feel when someone sees it for the first time.</p>
+          <div class="pull-quote">
+            <p>The best interfaces disappear. You stop seeing the design and just experience what it's doing for you.
+            </p>
+          </div>
+          <p>Currently pursuing MCA at <strong>NIIS Institute of Business Administration</strong> (affiliated BPUT),
+            graduating 2026. Always building something.</p>
+          <div class="about-facts">
+            <div class="fact">
+              <div class="fact-n">1+</div>
+              <div class="fact-l">Production projects deployed</div>
+            </div>
+            <div class="fact">
+              <div class="fact-n">5+</div>
+              <div class="fact-l">Technologies in active use</div>
+            </div>
+            <div class="fact">
+              <div class="fact-n">&#8734;</div>
+              <div class="fact-l">Things left to learn</div>
+            </div>
+            <div class="fact">
+              <div class="fact-n">2026</div>
+              <div class="fact-l">Graduating year</div>
+            </div>
+          </div>
         </div>
-        <div class="about-card">
-          <div class="about-card-label">Also</div>
-          <div class="edu-deg">Visual Art</div>
-          <div class="edu-school">Studied alongside technical education &mdash; composition, clean lines, spatial thinking. It shows in how I approach interfaces.</div>
+        <div class="about-right reveal">
+          <div class="about-card">
+            <div class="about-card-label">Education</div>
+            <div class="edu-deg">Master of Computer Applications</div>
+            <div class="edu-school">NIIS Institute of Business Administration<br>Affiliated &mdash; BPUT, Odisha</div>
+            <div class="edu-year">2024 &mdash; 2026</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Prior</div>
+            <div class="edu-deg">Bachelor&rsquo;s Of Visual Art</div>
+            <div class="edu-school">Dhauli Collage Of Art & Crafts</div>
+            <div class="edu-year">Completed</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-label">Also</div>
+            <div class="edu-deg">Visual Art</div>
+            <div class="edu-school">Studied alongside technical education &mdash; composition, clean lines, spatial
+              thinking. It shows in how I approach interfaces.</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<hr class="divider">
+  <hr class="divider">
 
-<!-- ══ SKILLS ════════════════════════════════════════ -->
-<section id="skills">
-  <div class="inner">
-    <div class="label reveal">02 / skills</div>
-    <div class="skills-layout">
-      <div class="skills-sidebar reveal">
-        <h2 class="big-heading" style="margin-bottom:1.5rem">Tools &amp;<br><em>craft.</em></h2>
-        <p>Things I reach for when building. Learned by doing, not just reading about it.</p>
-        <p>I'm also studying design as a discipline, not just a skill.</p>
-        <div class="skills-legend">
-          <div class="legend-item"><div class="legend-box"></div> Confident</div>
-          <div class="legend-item"><div class="legend-box dash"></div> Currently learning</div>
-        </div>
-      </div>
-      <div class="skills-body reveal">
-        <div class="sk-group">
-          <div class="sk-group-name">Frontend</div>
-          <div class="sk-pills">
-            <span class="sk-pill">HTML5</span>
-            <span class="sk-pill">CSS3</span>
-            <span class="sk-pill">JavaScript</span>
-            <span class="sk-pill learn">React</span>
+  <!-- ══ SKILLS ════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="inner">
+      <div class="label reveal">02 / skills</div>
+      <div class="skills-layout">
+        <div class="skills-sidebar reveal">
+          <h2 class="big-heading" style="margin-bottom:1.5rem">Tools &amp;<br><em>craft.</em></h2>
+          <p>Things I reach for when building. Learned by doing, not just reading about it.</p>
+          <p>I'm also studying design as a discipline, not just a skill.</p>
+          <div class="skills-legend">
+            <div class="legend-item">
+              <div class="legend-box"></div> Confident
+            </div>
+            <div class="legend-item">
+              <div class="legend-box dash"></div> Currently learning
+            </div>
           </div>
         </div>
-        <div class="sk-group">
-          <div class="sk-group-name">Backend</div>
-          <div class="sk-pills">
-            <span class="sk-pill">FastAPI</span>
-            <span class="sk-pill">Python</span>
-            <span class="sk-pill learn">Node.js</span>
+        <div class="skills-body reveal">
+          <div class="sk-group">
+            <div class="sk-group-name">Frontend</div>
+            <div class="sk-pills">
+              <span class="sk-pill">HTML5</span>
+              <span class="sk-pill">CSS3</span>
+              <span class="sk-pill">JavaScript</span>
+              <span class="sk-pill learn">React</span>
+            </div>
           </div>
-        </div>
-        <div class="sk-group">
-          <div class="sk-group-name">Database</div>
-          <div class="sk-pills">
-            <span class="sk-pill">MongoDB</span>
-            <!-- <span class="sk-pill">Motor (async)</span> -->
-            <span class="sk-pill">Atlas</span>
+          <div class="sk-group">
+            <div class="sk-group-name">Backend</div>
+            <div class="sk-pills">
+              <span class="sk-pill">FastAPI</span>
+              <span class="sk-pill">Python</span>
+              <span class="sk-pill learn">Node.js</span>
+            </div>
           </div>
-        </div>
-        <!-- <div class="sk-group">
+          <div class="sk-group">
+            <div class="sk-group-name">Database</div>
+            <div class="sk-pills">
+              <span class="sk-pill">MongoDB</span>
+              <!-- <span class="sk-pill">Motor (async)</span> -->
+              <span class="sk-pill">Atlas</span>
+            </div>
+          </div>
+          <!-- <div class="sk-group">
           <div class="sk-group-name">ML &amp; Data</div>
           <div class="sk-pills">
             <span class="sk-pill">Scikit-learn</span>
@@ -175,199 +198,246 @@
             <span class="sk-pill learn">Pandas</span>
           </div>
         </div> -->
-        <div class="sk-group">
-          <div class="sk-group-name">Tools &amp; Ops</div>
-          <div class="sk-pills">
-            <span class="sk-pill">Git &amp; GitHub</span>
-            <span class="sk-pill">Render</span>
-            <span class="sk-pill">Swagger / OpenAPI</span>
-            <span class="sk-pill">VS Code</span>
+          <div class="sk-group">
+            <div class="sk-group-name">Tools &amp; Ops</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Git &amp; GitHub</span>
+              <span class="sk-pill">Render</span>
+              <span class="sk-pill">Swagger / OpenAPI</span>
+              <span class="sk-pill">VS Code</span>
+            </div>
           </div>
-        </div>
-        <div class="sk-group">
-          <div class="sk-group-name">Design</div>
-          <div class="sk-pills">
-            <span class="sk-pill">Visual Art</span>
-            <span class="sk-pill">Composition</span>
-            <span class="sk-pill">Typography</span>
-            <span class="sk-pill learn">Figma</span>
+          <div class="sk-group">
+            <div class="sk-group-name">Design</div>
+            <div class="sk-pills">
+              <span class="sk-pill">Visual Art</span>
+              <span class="sk-pill">Composition</span>
+              <span class="sk-pill">Typography</span>
+              <span class="sk-pill learn">Figma</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<hr class="divider">
+  <hr class="divider">
 
-<!-- ══ PROJECTS ═══════════════════════════════════════ -->
-<section id="projects">
-  <div class="inner">
-    <div class="label reveal">03 / work</div>
-    <h2 class="big-heading reveal">Things I&rsquo;ve<br><em>built.</em></h2>
-    <div class="proj-list">
+  <!-- ══ PROJECTS ═══════════════════════════════════════ -->
+  <section id="projects">
+    <div class="inner">
+      <div class="label reveal">03 / work</div>
+      <h2 class="big-heading reveal">Things I&rsquo;ve<br><em>built.</em></h2>
+      <div class="proj-list">
 
-      <div class="proj-item reveal">
-        <div class="proj-n">01</div>
-        <div class="proj-body">
-          <div class="proj-name">LogSentinel</div>
-          <div class="proj-desc">Full-stack log processing and anomaly detection dashboard. FastAPI backend, MongoDB Atlas, IsolationForest ML model. Deployed and running in production on Render.</div>
-          <div class="proj-stack">
-            <span class="proj-tag">FastAPI</span>
-            <span class="proj-tag">MongoDB</span>
-            <span class="proj-tag">JavaScript</span>
-            <span class="proj-tag">Scikit-learn</span>
-            <span class="proj-tag">Render</span>
+        <div class="proj-item reveal">
+          <div class="proj-n">01</div>
+          <div class="proj-body">
+            <div class="proj-name">LogSentinel</div>
+            <div class="proj-desc">Full-stack log processing and anomaly detection dashboard. FastAPI backend, MongoDB
+              Atlas, IsolationForest ML model. Deployed and running in production on Render.</div>
+            <div class="proj-stack">
+              <span class="proj-tag">FastAPI</span>
+              <span class="proj-tag">MongoDB</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">Scikit-learn</span>
+              <span class="proj-tag">Render</span>
+            </div>
+          </div>
+          <div class="proj-aside">
+            <div class="proj-status"><span class="dot-live"></span><span class="live-c">Live</span></div>
+            <div class="proj-links">
+              <a href="https://logsentinel.onrender.com" target="_blank" class="plink">Visit &rarr;</a>
+              <a href="https://github.com/Biswaranjan456/logSentinel" target="_blank" class="plink">GitHub</a>
+            </div>
           </div>
         </div>
-        <div class="proj-aside">
-          <div class="proj-status"><span class="dot-live"></span><span class="live-c">Live</span></div>
-          <div class="proj-links">
-            <a href="https://logsentinel.onrender.com" target="_blank" class="plink">Visit &rarr;</a>
-            <a href="https://github.com/Biswaranjan456/logSentinel" target="_blank" class="plink">GitHub</a>
+
+        <div class="proj-item reveal">
+          <div class="proj-n">02</div>
+          <div class="proj-body">
+            <div class="proj-name">Portfolio</div>
+            <div class="proj-desc">This site. Designed and coded by hand &mdash; no templates, no frameworks. An attempt
+              to express both technical ability and visual sensibility in one place.</div>
+            <div class="proj-stack">
+              <span class="proj-tag">HTML</span>
+              <span class="proj-tag">CSS</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">Render</span>
+            </div>
+          </div>
+          <div class="proj-aside">
+            <div class="proj-status"><span class="dot-here"></span><span class="here-c">You&rsquo;re here</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Biswaranjan456" target="_blank" class="plink">GitHub</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="proj-item reveal">
-        <div class="proj-n">02</div>
-        <div class="proj-body">
-          <div class="proj-name">Portfolio</div>
-          <div class="proj-desc">This site. Designed and coded by hand &mdash; no templates, no frameworks. An attempt to express both technical ability and visual sensibility in one place.</div>
-          <div class="proj-stack">
-            <span class="proj-tag">HTML</span>
-            <span class="proj-tag">CSS</span>
-            <span class="proj-tag">JavaScript</span>
-            <span class="proj-tag">Render</span>
+        <div class="proj-item reveal">
+          <div class="proj-n">03</div>
+          <div class="proj-body">
+            <div class="proj-name">Next Project</div>
+            <div class="proj-desc">Something new is taking shape. Follow on GitHub to see what comes next.</div>
+            <div class="proj-stack">
+              <span class="proj-tag">React</span>
+              <span class="proj-tag">Node.js</span>
+              <span class="proj-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="proj-aside">
+            <div class="proj-status"><span class="dot-wip"></span><span class="wip-c">In progress</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Biswaranjan456" target="_blank" class="plink">GitHub</a>
+            </div>
           </div>
         </div>
-        <div class="proj-aside">
-          <div class="proj-status"><span class="dot-here"></span><span class="here-c">You&rsquo;re here</span></div>
-          <div class="proj-links">
-            <a href="https://github.com/Biswaranjan456" target="_blank" class="plink">GitHub</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="proj-item reveal">
-        <div class="proj-n">03</div>
-        <div class="proj-body">
-          <div class="proj-name">Next Project</div>
-          <div class="proj-desc">Something new is taking shape. Follow on GitHub to see what comes next.</div>
-          <div class="proj-stack">
-            <span class="proj-tag">React</span>
-            <span class="proj-tag">Node.js</span>
-            <span class="proj-tag">MongoDB</span>
-          </div>
-        </div>
-        <div class="proj-aside">
-          <div class="proj-status"><span class="dot-wip"></span><span class="wip-c">In progress</span></div>
-          <div class="proj-links">
-            <a href="https://github.com/Biswaranjan456" target="_blank" class="plink">GitHub</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<hr class="divider">
-
-<!-- ══ CERTIFICATIONS ═════════════════════════════════ -->
-<section id="certifications">
-  <div class="inner">
-    <div class="label reveal">04 / certifications</div>
-    <h2 class="big-heading reveal">What I&rsquo;ve<br><em>studied.</em></h2>
-    <div class="cert-list reveal">
-      <div class="cert-row">
-        <div><div class="cert-name">Add Certification Name</div><div class="cert-by">Issuer / Platform</div></div>
-        <div class="cert-yr">2024</div>
-      </div>
-      <div class="cert-row">
-        <div><div class="cert-name">Add Certification Name</div><div class="cert-by">Issuer / Platform</div></div>
-        <div class="cert-yr">2024</div>
-      </div>
-      <div class="cert-row">
-        <div><div class="cert-name">Add Certification Name</div><div class="cert-by">Issuer / Platform</div></div>
-        <div class="cert-yr">2025</div>
-      </div>
-      <div class="cert-row">
-        <div><div class="cert-name">Add Certification Name</div><div class="cert-by">Issuer / Platform</div></div>
-        <div class="cert-yr">2025</div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<hr class="divider">
+  <hr class="divider">
 
-<!-- ══ EXPERIENCE ════════════════════════════════════ -->
-<section id="experience">
-  <div class="inner">
-    <div class="label reveal">05 / experience</div>
-    <h2 class="big-heading reveal">Where I&rsquo;ve<br><em>been.</em></h2>
-    <div class="exp-list">
-      <div class="exp-row reveal">
-        <div class="exp-year">Add dates</div>
-        <div class="exp-body">
-          <div class="exp-role">Add Your Internship Role</div>
-          <div class="exp-co">Company Name</div>
-          <div class="exp-desc">Edit this section to describe your role, responsibilities, and what you learned. What problems did you solve? What did you ship?</div>
+  <!-- ══ CERTIFICATIONS ═════════════════════════════════ -->
+  <section id="certifications">
+    <div class="inner">
+      <div class="label reveal">04 / certifications</div>
+      <h2 class="big-heading reveal">What I&rsquo;ve<br><em>studied.</em></h2>
+      <div class="cert-list reveal">
+
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Introduction to Generative AI</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">March 28, 2025</div>
+          <a href="Coursera GenAI.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
+
         </div>
-      </div>
-      <div class="exp-row reveal">
-        <div class="exp-year">2024 &mdash; now</div>
-        <div class="exp-body">
-          <div class="exp-role">MCA Student &mdash; Full Stack</div>
-          <div class="exp-co">NIIS Institute of Business Administration, BPUT</div>
-          <div class="exp-desc">Pursuing MCA with a focus on full stack web development. Built and deployed LogSentinel &mdash; a production log processing and anomaly detection system using FastAPI, MongoDB, and ML. Learned by building real things.</div>
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Build a Professional Resume using Canva</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">March 28, 2025</div>
+          <a href="Coursera resumeCanva.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
+
+        </div>
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Build a free website with WordPress</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">October 23, 2025</div>
+          <a href="Coursera wordpress.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
+
+        </div>
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Internet of Things: Communication Technologies</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">February 5, 2026</div>
+          <a href="Coursera iot.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
+
+        </div>
+
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Cloud Computing Foundations</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">February 5, 2026</div>
+          <a href="Coursera cloudComputing.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
+
+        </div>
+        <div class="cert-row">
+          <div>
+            <div class="cert-name">Introduction to Cybersecurity Essentials</div>
+            <div class="cert-by">Coursera</div>
+          </div>
+          <div class="cert-yr">February 5, 2026</div>
+          <a href="Coursera CyberE.pdf" download class="btn-ghost">&#8595; Get Certificate</a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ══ CONTACT ════════════════════════════════════════ -->
-<section id="contact">
-  <div class="inner">
-    <div class="label reveal">06 / contact</div>
-    <div class="contact-grid">
-      <div class="contact-left reveal">
-        <h2 class="big-heading">Let&rsquo;s talk about<br><em>something real.</em></h2>
-        <p>I&rsquo;m open to internships, collaborations, and interesting problems. If you&rsquo;re building something thoughtful, reach out.</p>
-        <div class="contact-list">
-          <a href="mailto:biswaranjanp272@gmail.com" class="clink">
-            <span class="cl-type">email</span>
-            <span class="cl-text">biswaranjanp272@gmail.com</span>
-          </a>
-          <a href="https://github.com/Biswaranjan456" target="_blank" class="clink">
-            <span class="cl-type">github</span>
-            <span class="cl-text">github.com/Biswaranjan456</span>
-          </a>
-          <a href="https://logsentinel.onrender.com" target="_blank" class="clink">
-            <span class="cl-type">project</span>
-            <span class="cl-text">logsentinel.onrender.com</span>
-          </a>
-          <a href="Biswaranjan_Patra_Resume.pdf" download class="clink">
-            <span class="cl-type">resume</span>
-            <span class="cl-text">Download CV &darr;</span>
-          </a>
+  <hr class="divider">
+
+  <!-- ══ EXPERIENCE ════════════════════════════════════ -->
+  <section id="experience">
+    <div class="inner">
+      <div class="label reveal">05 / experience</div>
+      <h2 class="big-heading reveal">Where I&rsquo;ve<br><em>been.</em></h2>
+      <div class="exp-list">
+        <div class="exp-row reveal">
+          <div class="exp-year">2025 June &mdash; october </div>
+          <div class="exp-body">
+            <div class="exp-role">Full Stack web Developer</div>
+            <div class="exp-co">Web Bocket software Pvt. Ltd.</div>
+            <div class="exp-desc">Working on both frontend and backend technologies to develop web-based
+              solutions. Learned and applied HTML, CSS, JavaScript, and database concepts.</div>
+          </div>
+        </div>
+        <div class="exp-row reveal">
+          <div class="exp-year">2025 june &mdash; now</div>
+          <div class="exp-body">
+            <div class="exp-role">Full Stack web Development lntern(Virtual)</div>
+            <div class="exp-co">Embrizon
+              technologies - Remote</div>
+            <div class="exp-desc">Worked on live project modules using HTML, CSS, and JavaScript.
+              Learned teamwork in a professional virtual environment</div>
+          </div>
         </div>
       </div>
-      <div class="contact-right reveal">
-        <div class="c-quote">&ldquo;Good work is made by people who care about the details that nobody notices &mdash; until they&rsquo;re wrong.&rdquo;</div>
-        <div class="c-available"><span class="pulse"></span> Available for internships</div>
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="inner">
+      <div class="label reveal">06 / contact</div>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2 class="big-heading">Let&rsquo;s talk about<br><em>something real.</em></h2>
+          <p>I&rsquo;m open to internships, collaborations, and interesting problems. If you&rsquo;re building something
+            thoughtful, reach out.</p>
+          <div class="contact-list">
+            <a href="mailto:biswaranjanp272@gmail.com" class="clink">
+              <span class="cl-type">email</span>
+              <span class="cl-text">biswaranjanp272@gmail.com</span>
+            </a>
+            <a href="https://github.com/Biswaranjan456" target="_blank" class="clink">
+              <span class="cl-type">github</span>
+              <span class="cl-text">github.com/Biswaranjan456</span>
+            </a>
+            <a href="https://logsentinel.onrender.com" target="_blank" class="clink">
+              <span class="cl-type">project</span>
+              <span class="cl-text">logsentinel.onrender.com</span>
+            </a>
+            <a href="Biswaranjan_Patra_Resume.pdf" download class="clink">
+              <span class="cl-type">resume</span>
+              <span class="cl-text">Download CV &darr;</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <div class="c-quote">&ldquo;Good work is made by people who care about the details that nobody notices &mdash;
+            until they&rsquo;re wrong.&rdquo;</div>
+          <div class="c-available"><span class="pulse"></span> Available for internships</div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <span>&copy; 2025 Biswaranjan Patra</span>
-  <span>MCA &middot; NIIS / BPUT &middot; Odisha, India</span>
-</footer>
+  <footer>
+    <span>&copy; 2025 Biswaranjan Patra</span>
+    <span>MCA &middot; NIIS / BPUT &middot; Odisha, India</span>
+  </footer>
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
+
 </html>
